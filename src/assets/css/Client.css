@@ -1,0 +1,47 @@
+/* Clients */
+.clients-container {
+    background-color: #F8F8F8;
+    padding: 40px 20px;
+    font-family: 'DM Sans', sans-serif;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .clients-container.fade-in {
+    opacity: 1;
+  }
+  
+  .clients-title {
+    color: #252525;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  
+  .clients-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* ClientItem */
+  .client-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+  }
+  
+  .client-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .client-text {
+    color: #B3B3B3;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+  }

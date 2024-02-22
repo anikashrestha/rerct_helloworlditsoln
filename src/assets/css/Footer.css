@@ -1,0 +1,73 @@
+/* ContactForm.css */
+.contact-form-container {
+  background-color: #fff;
+  padding: 40px 45px;
+  border-radius: 15px;
+  border: 2px solid #48AEC2;
+  margin: 30px;
+}
+
+.contact-text {
+  color: #48AEC2;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.form-group label {
+  display: flex;
+  color: #48AEC2;
+  margin-bottom: 6px;
+}
+
+.form-control {
+  background-color: #f8f9fa; /* Bootstrap background-color for form inputs */
+  border: 1px solid #ced4da; /* Bootstrap border-color for form inputs */
+  border-radius: .25rem; /* Bootstrap border-radius for form inputs */
+}
+
+.btn-primary {
+  background-color: #48AEC2;
+  border-color: #48AEC2;
+  margin-top: 20px;
+}
+
+/* OfficeInfo.css */
+.office-info-container {
+  color: #fff;
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.idea-text {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.phone-info, .email-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.phone-icon, .email-icon {
+  /* Icons would be added using a font library like FontAwesome */
+  margin-right: 40px;
+}
+
+/* Footer.css */
+.footer-container {
+  background-color: #48AEC2;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 150px;
+}
